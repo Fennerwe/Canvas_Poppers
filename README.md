@@ -35,6 +35,7 @@ CURRENT KNOWN BUG: For some reason, sometimes poppers that you DON'T click will 
 
 
 STUFF TO ADD:
-  1) Convert entire thing into a jQuery plugin
-  2) Add reset ability so the page doesn't have to be refreshed
-  3) Change some of the functionality so the user doesn't have to know as much and the poppers can be implemented easier      (such as making it so the user doesn't have to know about the popperArr array)
+
+        1) Convert entire thing into a jQuery plugin
+        2) Add reset ability so the page doesn't have to be refreshed
+        3) Change some of the functionality so the user doesn't have to know as much and the poppers can be implemented            easier (such as making it so the user doesn't have to know about the popperArr array)
