@@ -33,6 +33,15 @@ An 'isPopped' function is available to let you know if a popper has been popped 
 2 sound files for the popping noise are included; the party_popper.js file handles embedding the audio tag on your web page with a $(document).ready event.  Only one audio element is embedded, and all poppers share that element.
 
 
+The Adobe Photoshop and Adobe Illustrator files for the popper images are also provided.  To create a new color of popper, all you have to do is change the gradient colors in the Illustrator file and then move the image into the Photoshop file and use it as a new layer.  Then just save one image as a .png with the "Popped String" layer on and another with the "Unpopped String" layer.  So for a new purple party popper (dat alliteration), the 2 files you'd need would be:
+
+        party_popper_purple.png
+                and
+        party_popper_purple-popped.png
+        
+Then just stick those two files in the img/ directory with the rest and you're good to go!
+
+
 An example page is provided in the Example folder (creative name, I know).  It has 6 poppers facing different directions on one big canvas.
 
 
