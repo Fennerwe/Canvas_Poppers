@@ -30,6 +30,11 @@ A 'pop' function is available if you want to manually pop a popper instead of ha
 
 An 'isPopped' function is available to let you know if a popper has been popped and all of its confetti is off the canvas screen.
 
+2 sound files for the popping noise are included; the party_popper.js file handles embedding the audio tag on your web page with a $(document).ready event.  Only one audio element is embedded, and all poppers share that element.
+
+
+An example page is provided in the Example folder (creative name, I know).  It has 6 poppers facing different directions on one big canvas.
+
 
 CURRENT KNOWN BUG: For some reason, sometimes poppers that you DON'T click will go off when you click one.  The first popper in the array will ALWAYS go off the first time you click any of the poppers.  Sometimes, other ones will go off prematurely as well.
 
@@ -38,4 +43,4 @@ STUFF TO ADD:
 
         1) Convert entire thing into a jQuery plugin
         2) Add reset ability so the page doesn't have to be refreshed
-        3) Change some of the functionality so the user doesn't have to know as much and the poppers can be implemented            easier (such as making it so the user doesn't have to know about the popperArr array)
+        3) Change some of the functionality so the user doesn't have to know as much and the poppers can be implemented easier (such as making it so the user doesn't have to know about the popperArr array)
